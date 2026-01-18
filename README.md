@@ -54,8 +54,6 @@ System based on supplier (merchant) product catalogs, **such as McDonald’s sel
 
 ◦ **REST API** – Exposure of endpoints for data creation and updates  
 
----
-
 ## ``` Event Flow ```
 
 1. The supplier uploads its catalog to an **S3 bucket**  
