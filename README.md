@@ -1,5 +1,5 @@
 # Backend-ArquiteturaServeless
-- Sistema de pedidos atraves de catalogos do fornecedor(lojista) - como por exemplo totens de autoatendimento do mcdonalds que o cliente pede o pedido direto da interface digital, sem interação humana.
+- Sistema de pedidos através de catalogos do fornecedor(lojista) - como por exemplo totens de autoatendimento do mcdonalds que o cliente pede o pedido direto da interface digital, sem interação humana.
 - arquitetura-serveless - AWS SQS - AWS Lambda  - AWS3(bucket)
 - DB -> MongoDB(NoSQL)
 ## ``` Diagrama de Fluxo | Event-Driven Architecture Diagram  ```
