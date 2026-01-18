@@ -33,11 +33,36 @@ System based on supplier (merchant) product catalogs, **such as McDonald’s sel
 
 ◦ **API REST** – Exposição de endpoints para criação e atualização de dados
 
-## Fluxo 
+## ``` Fluxo ```
 
 1. O fornecedor envia seu catálogo para um **bucket S3**
 2. Um evento é publicado em uma **fila SQS**
-3. Funções **AWS Lambda** consomem a mensagem e processam os dados
-4. As informações são normalizadas no **MongoDB**
-5. A **API** disponibiliza os dados para consumo por aplicações clientes
+3. **AWS Lambda** consomem a mensagem e processam os dados
+4. Informações são normalizadas no **MongoDB**
+5. **API RESTful** disponibiliza os dados para consumo por aplicações clientes
+
+## ``` ~~~ English -> ```
+- Technology Stack
+
+◦ **AWS S3** – Storage for supplier catalogs  
+
+◦ **AWS SQS** – Message queue for catalog-related events  
+
+◦ **AWS Lambda** – Event processing and business rule execution  
+
+◦ **MongoDB (NoSQL)** – Persistence layer for products and categories  
+
+◦ **REST API** – Exposure of endpoints for data creation and updates  
+
+---
+
+## ``` Event Flow ```
+
+1. The supplier uploads its catalog to an **S3 bucket**  
+2. An event is published to an **SQS queue**  
+3. **AWS Lambda** functions consume the message and process the data  
+4. Data is normalized and persisted in **MongoDB**  
+5. A **RESTful API** exposes the data for consumption by client applications 
+
+
 
