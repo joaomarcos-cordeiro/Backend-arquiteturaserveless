@@ -23,10 +23,14 @@ System based on supplier (merchant) product catalogs, **such as McDonald’s sel
 
 - Stack Tecnológica
 
-◦ **AWS S3** – Armazenamento dos catálogos dos fornecedores (JSON)
+◦ **AWS S3** – Armazenamento dos catálogos dos fornecedores 
+
 ◦ **AWS SQS** – Fila de mensageria para eventos de catálogo
+
 ◦ **AWS Lambda** – Processa os eventos e regras de negócio
+
 ◦ **MongoDB (NoSQL)** – Persistência de dados de produtos e categorias
+
 ◦ **API REST** – Exposição de endpoints para criação e atualização de dados
 
 ## Fluxo 
