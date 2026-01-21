@@ -23,7 +23,7 @@ System based on supplier (merchant) product catalogs, **such as McDonald’s sel
 
 - Stack Tecnológica
 
-◦ **AWS S3** – Armazenamento dos catálogos dos fornecedores 
+◦ **AWS S3** – Armazena os catálogos dos fornecedores 
 
 ◦ **AWS SQS** – Fila de mensageria para eventos de catálogo
 
