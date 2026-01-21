@@ -1,5 +1,5 @@
 # Backend-arquitetura-serveless
- Sistema de pedidos através de catálogos do fornecedor(lojista) - como por exemplo **totens de autoatendimento do McDonald’s** que o cliente pede o pedido direto da interface digital, sem interação humana.
+ Sistema de pedidos através de catálogos do fornecedor(lojista) - como por exemplo **totens de autoatendimento do McDonald’s** que o cliente pede o pedido direto da interface digital.
 
 ## ``` Contexto (BusinessRules) ```
 ◦ O sistema facilita que lojistas publiquem seus **catálogos de produtos** e que esses dados sejam processados de forma **assíncrona, escalável e desacoplada**, diante da **arquitetura serverless orientada a eventos**, implementada em Java.
