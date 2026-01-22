@@ -1,7 +1,7 @@
 package com.jm.arquitetura_serverless.domain.product;
 
 
-import jdk.jfr.Category;
+import com.jm.arquitetura_serverless.domain.category.Category;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -24,6 +24,17 @@ public class Product {
     private Integer price;
 
     private Category category;
+
+    public Product(ProductDTO data){
+        this.title = data.title();
+        this.description = data.description();
+        this.ownerId = data.ownerId();
+        this.price = data.price();
+
+    }
+
+
+
 
 
 
